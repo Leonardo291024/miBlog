@@ -71,7 +71,7 @@ nav .nav-logo-container{
 }
 
 nav .nav-logo-container img{
-    width: 220px;
+    width: 64px;
     margin-top: 10px;
 }
 
@@ -84,7 +84,7 @@ nav .profile-link{
 
 nav .profile-link a{
     color: black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid orangered;
 }
 
 /*ESTILOS DE LA PAGINA PRINCIPAL*/
@@ -103,7 +103,7 @@ nav .profile-link a{
     display: grid;
     grid-column: 2;
     justify-items: center;
-    height: 100vh;
+    height: 50%;
     margin-top: 80px;
 }
 
@@ -131,16 +131,82 @@ nav .profile-link a{
     font-size: 18px;
 }
 
-@media (max-width: 400px){
-    nav .nav-logo-container{
-        margin-left: 0px;
-    }   
 
-    .home-main{
-        background-image: url(../assets/imgs/portada-mobile.png);
-    }
+/*PAGINA DE EL PERFIL*/
 
-    .home-main-text{
-        color: white;
-    }
+.sobreMi-container{
+    padding: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
+
+.sobreMi-container .profile-container{
+    display: flex;
+}
+
+.sobreMi-container .sobreMi-picture img{
+    width: 320px;
+    margin-right: 50px;
+}
+
+.proyectos-container{
+    padding: 0 50px 40px;
+}
+
+.proyects-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proyectos-container h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    padding-top: 20px
+}
+
+.proyectos-container .proyect-container{
+    padding: 0 5px;
+}
+
+.contact-main-container{
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-main-container div{
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a{
+   border-bottom: 1px solid black;
+   padding-bottom: 5px;
+}
+
+
+.contact-main-container .contact-left, .contact-rigth{
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container img{
+    width: 100px;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid orangered;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
 }

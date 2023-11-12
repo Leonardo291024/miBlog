@@ -1,0 +1,84 @@
+@media (max-width: 900px){
+    .blogs-main-new{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .blogs-news-img-container{
+        grid-row: 2;
+    }
+
+    .blogs-news-info-container{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .blogs-posts-container .post-container{
+        max-width: 45%;
+    }
+
+    .proyects-main-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+
+    .sobreMi-container .profile-container{
+        display: block;
+    }
+}
+
+@media (max-width: 600px){
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    }
+
+    nav .nav-logo-container{
+        margin-left: 0;
+    }
+
+    .blogpost-main-container{
+        padding: 0 10px 40px;
+    }
+
+    .contact-main-container div{
+        width: 100%;
+        padding: 20px 8px 25px;
+    }
+
+    .contact-main-container .contact-left, .contact-rigth{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 500px){
+    .blogpost-img-container{
+        padding: 0 10px 20px;
+    }
+
+    .proyects-main-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 400px){
+    nav{
+        grid-template-columns: 1fr 2fr;
+        justify-items: center;
+    }
+
+    nav .nav-logo-container{
+        margin-left: 0px;
+    }   
+
+    .home-main{
+        background-image: url(../assets/imgs/portada-mobile.png);
+    }
+
+    .home-main section{
+        margin-top: 20px;
+    }
+
+    .home-main-text{
+        color: white;
+    }
+}
