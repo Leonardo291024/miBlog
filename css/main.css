@@ -103,7 +103,7 @@ nav .profile-link a{
     display: grid;
     grid-column: 2;
     justify-items: center;
-    height: 450px;
+    height: 100vh;
     margin-top: 80px;
 }
 
