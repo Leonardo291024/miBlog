@@ -90,7 +90,7 @@ nav .profile-link a{
 /*ESTILOS DE LA PAGINA PRINCIPAL*/
 
 .home-main{
-    background-image: url(/assets/imgs/ktm-portada.png);
+    background-image: url(../assets/imgs/ktm-portada.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,6 +137,6 @@ nav .profile-link a{
     }   
 
     .home-main{
-        background-image: url(/assets/imgs/portada-mobile.png);
+        background-image: url(../assets/imgs/portada-mobile.png);
     }
 }
